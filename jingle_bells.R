@@ -8,7 +8,17 @@ pitch <- paste("E E E",
                "F F F F",
                "F E E E",
                "E D D E",
-               "D G")
+               "D G",
+               "E E E",
+               "E E E",
+               "E G C D",
+               "E",
+               "F F F F",
+               "F E E E",
+               "E D D E",
+               "D G",
+               "G E D C E",
+               "G G G E D C A")
 pitch <- tolower(pitch)
 duration <- c(1, 1, 2, 
               1, 1, 2, 
@@ -17,7 +27,16 @@ duration <- c(1, 1, 2,
               1, 1, 1, 1, 
               1, 1, 1, 1, 
               1, 1, 1, 1,
-              2, 2)
+              2, 2,1, 1, 2, 
+              1, 1, 2, 
+              1, 1, 1.5, 0.5, 
+              4, 
+              1, 1, 1, 1, 
+              1, 1, 1, 1, 
+              1, 1, 1, 1,
+              2, 2,
+              1,1,1,1,3,
+              0.5,0.5,1,1,1,1,2)
 bday <- data_frame(pitch = strsplit(pitch, " ")[[1]],
                    duration = duration)
 
